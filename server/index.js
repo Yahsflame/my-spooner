@@ -9,6 +9,7 @@
 
 var express = require('express'); // Express web server framework
 var request = require('request'); // "Request" library
+var port = process.env.PORT || 8888;
 var cors = require('cors');
 var querystring = require('querystring');
 var cookieParser = require('cookie-parser');
@@ -143,6 +144,5 @@ app.get('/refresh_token', function(req, res) {
   });
 });
 
-const port = process.env.PORT || 8888;
 console.log('Listening on 8888');
 app.listen(port);
