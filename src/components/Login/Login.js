@@ -9,7 +9,7 @@ const Login = (props) => {
       {props.username ? (
         <p className="welcome-name"> Welcome {props.username}! </p>
       ) : (
-        <a className="login-link" href='/login'> Login to Spotify </a>
+        <a className="login-link" href='http://localhost:8888/login'> Login to Spotify </a>
       )}
     </div>
   )
