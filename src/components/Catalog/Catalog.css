@@ -1,0 +1,97 @@
+.catalog {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 20vh;
+  min-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.catalog-link {
+  color: #1db954;
+  text-decoration: none;
+}
+
+.catalog-link:hover {
+  color: white;
+}
+
+/* Style the inputs to make them more accessible */
+input, select {
+  font-size: 1em;
+  margin: auto 10px;
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+  width: 25%;
+  padding: 10px;
+  font-size: .7em;
+  border-radius: 20px;
+  background-color: #1db954;
+  color: white;
+  border: none;
+}
+
+button:hover {
+  color: #1db954;
+  background-color: white;
+}
+
+button:focus {
+  outline:none;
+}
+
+/* Remove default bullet points and adjust list style */
+ul {
+  padding: 0 5vw;
+}
+
+li {
+  min-width: 100%;
+  list-style: none;
+  margin: 3vh 0;
+  text-align: left;
+}
+
+.results {
+  min-width: 100%;
+}
+
+/* Style the artist/track names */
+.h2-prettyName {
+  display: inline;
+}
+
+p strong {
+  text-transform: uppercase;
+}
+
+.prettyName {
+  display: inline;
+  font-size: .8em;
+}
+
+/* Style the album/artist images */
+.prettyArt {
+  width: 15vw;
+  display: inline;
+  vertical-align: middle;
+}
+
+.aligner {
+  display: flex;
+  align-items: center;
+}
+
+.flex-text {
+  flex-direction: column;
+  justify-content: center;
+  overflow: auto;
+  padding: 0 1vw;
+}

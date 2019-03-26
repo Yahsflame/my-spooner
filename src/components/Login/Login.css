@@ -1,0 +1,44 @@
+.login {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.welcome-name {
+  color: #1db954;
+  text-decoration: none;
+  margin-bottom: 2vh;
+  text-transform: capitalize
+}
+
+.login-link {
+  color: #1db954;
+  text-decoration: none;
+  margin-bottom: 2vh;
+}
+
+.login-link:hover {
+  color: white;
+}
+
+.login-logo {
+  animation: login-logo-spin infinite 20s linear;
+  height: 15vw;
+  margin: 10vmin 0 5vmin;
+  pointer-events: none;
+}
+
+@keyframes login-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
